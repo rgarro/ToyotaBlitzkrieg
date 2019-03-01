@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System;
+using emptyLibUnity.UI.Util;
+using UnityEngine.UI;
 
 [Serializable]
 public enum DriveType
@@ -30,11 +32,23 @@ public class WheelDrive : MonoBehaviour
 	[Tooltip("The vehicle's drive type: rear-wheels drive, front-wheels drive or all-wheels drive.")]
 	public DriveType driveType;
 
+	public SimpleGaugeNeedle speedNeedle;
+	public SimpleGaugeNeedle mphNeedle;
+	public Image NeedleIm;
+	public Image NeedleMph;
     private WheelCollider[] m_Wheels;
+
+	public double speedKph = 0.0F;
+	public double speedMph = 0.0F;
+	private Rigidbody rb;
+	private GameObject go;
 
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
 	{
+		this.rb = GetComponent<Rigidbody>();
+		this.go = GetComponent<GameObject>();
+		this.startDashItems();
 		m_Wheels = GetComponentsInChildren<WheelCollider>();
 
 		for (int i = 0; i < m_Wheels.Length; ++i) 
@@ -50,11 +64,33 @@ public class WheelDrive : MonoBehaviour
 		}
 	}
 
+	void startDashItems(){
+		this.speedNeedle = new SimpleGaugeNeedle();
+		this.speedNeedle.Needle = this.NeedleIm;
+		this.mphNeedle = new SimpleGaugeNeedle();
+		this.mphNeedle.Needle = this.NeedleMph;
+	}
+
+	void setSpeedKph(){
+		this.speedKph = this.rb.velocity.magnitude*3.6;
+		this.speedNeedle.getTilter(this.speedKph);//fractals are the far end of the needle speed oscilation ...
+		this.speedNeedle.tiltNeedle();
+	}
+
+	protected void setSpeedMph(){
+		this.speedMph = this.speedKph * 0.621371;
+		Debug.Log(this.speedMph);
+		this.mphNeedle.getTilter(this.speedMph);
+		this.mphNeedle.tiltNeedle();
+	}
+
 	// This is a really simple approach to updating wheels.
 	// We simulate a rear wheel drive car and assume that the car is perfectly symmetric at local zero.
 	// This helps us to figure our which wheels are front ones and which are rear.
 	void Update()
 	{
+		this.setSpeedKph();
+		this.setSpeedMph();
 		m_Wheels[0].ConfigureVehicleSubsteps(criticalSpeed, stepsBelow, stepsAbove);
 
 		float angle = maxAngle * Input.GetAxis("Horizontal");
@@ -83,7 +119,7 @@ public class WheelDrive : MonoBehaviour
 				wheel.motorTorque = torque;
 			}
 
-			// Update visual wheels if any.
+			// Update visual wheels if any.pw
 			if (wheelShape) 
 			{
 				Quaternion q;
