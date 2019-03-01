@@ -10905,6 +10905,30 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 822616620}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &822616622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 768911566454794994, guid: 759be54752df295478e1619fa41cdbe3,
+    type: 3}
+  m_PrefabInstance: {fileID: 822616620}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &822616623 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 768911565677960124, guid: 759be54752df295478e1619fa41cdbe3,
+    type: 3}
+  m_PrefabInstance: {fileID: 822616620}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839969711
 GameObject:
   m_ObjectHideFlags: 0
@@ -22259,6 +22283,12 @@ MonoBehaviour:
   stepsBelow: 5
   stepsAbove: 1
   driveType: 0
+  speedNeedle: {fileID: 0}
+  mphNeedle: {fileID: 0}
+  NeedleIm: {fileID: 822616623}
+  NeedleMph: {fileID: 822616622}
+  speedKph: 0
+  speedMph: 0
 --- !u!114 &1750372854
 MonoBehaviour:
   m_ObjectHideFlags: 0
