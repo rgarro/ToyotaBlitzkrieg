@@ -7085,7 +7085,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507474084}
-  m_LocalRotation: {x: 0, y: 0, z: -0.0000000037252903, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.000000004063761, w: 1}
   m_LocalPosition: {x: 0.03377762, y: 0.00088235986, z: 0.0026913297}
   m_LocalScale: {x: 0.09480446, y: 0.33299446, z: 0.12972555}
   m_Children: []
@@ -13359,13 +13359,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078110385}
-  m_LocalRotation: {x: -0.14033332, y: -0.0071721124, z: 0.04807578, w: 0.98891044}
-  m_LocalPosition: {x: -0.0020976863, y: 0.0104795005, z: -0.0015442431}
+  m_LocalRotation: {x: -0.13943078, y: -0.017434133, z: -0.024503704, w: 0.9897751}
+  m_LocalPosition: {x: -0.0007076505, y: 0.0109178955, z: -0.0016301153}
   m_LocalScale: {x: -0.015173419, y: -0.017216718, z: -0.24943805}
   m_Children: []
   m_Father: {fileID: 1010193531}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -16.073, y: -1.651, z: -2.6030002}
 --- !u!23 &1078110387
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22539,6 +22539,7 @@ GameObject:
   - component: {fileID: 1750372857}
   - component: {fileID: 1750372854}
   - component: {fileID: 1750372853}
+  - component: {fileID: 1750372858}
   m_Layer: 0
   m_Name: carRoot
   m_TagString: Untagged
@@ -22647,6 +22648,20 @@ MonoBehaviour:
   maxRolloffDistance: 500
   dopplerLevel: 1
   useDoppler: 1
+--- !u!114 &1750372858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750372852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9db6f7b0684383478fb84a9f2e152b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretObj: {fileID: 1078110385}
+  barrelsObj: {fileID: 1423958434}
 --- !u!1 &1751409196
 GameObject:
   m_ObjectHideFlags: 0
