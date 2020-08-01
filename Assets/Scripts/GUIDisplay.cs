@@ -1,11 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * 
+ *
+ * 
+ * @rolando <rgarro@gmail.com>
+ */
 public class GUIDisplay : MonoBehaviour {
 
 
 	public Texture crispyLogo;
+	public float IconX = 10;
+    public float IconY = 10;
+    public float IconWidth = 128;
+    public float IconHeight = 128;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +28,7 @@ public class GUIDisplay : MonoBehaviour {
 
 	void OnGUI ()
 	{
-		GUI.Box (new Rect (10,10,100,200), new GUIContent(crispyLogo));
+		GUI.Box (new Rect (this.IconX,this.IconY,this.IconWidth,this.IconHeight), new GUIContent(crispyLogo));
 		// Make a background box
 		GUI.Box(new Rect(10,115,100,90), "Loader Menu");
 		//GUI.Button (new Rect (10,10,100,20), new GUIContent ("Click me", icon, "This is the tooltip"));

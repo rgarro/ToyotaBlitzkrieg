@@ -10831,6 +10831,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crispyLogo: {fileID: 2800000, guid: 0424c2e519f8e45408577353fa5f1d07, type: 3}
+  IconX: 10
+  IconY: 10
+  IconWidth: 60
+  IconHeight: 60
 --- !u!114 &806861640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10954,8 +10958,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RestartIcon: {fileID: 2800000, guid: 2ea222b5374654e59a45ca1153faca10, type: 3}
-  IconX: 195
-  IconY: 17
+  IconX: 90
+  IconY: 20
   IconWidth: 40
   IconHeight: 40
 --- !u!1 &815820574
