@@ -247,9 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9db6f7b0684383478fb84a9f2e152b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftTurnKey: f
-  rightTurnKey: g
-  rotationSteps: 0.38
+  turretObj: {fileID: 0}
+  barrelsObj: {fileID: 0}
 --- !u!82 &5132210
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10835,6 +10834,12 @@ MonoBehaviour:
   IconY: 10
   IconWidth: 60
   IconHeight: 60
+  fontSize: 10
+  boxY: 75
+  boxX: 6
+  btnMargin: 10
+  boxWidth: 100
+  boxHeight: 114
 --- !u!114 &806861640
 MonoBehaviour:
   m_ObjectHideFlags: 0
