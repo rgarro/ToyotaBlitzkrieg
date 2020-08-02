@@ -9179,11 +9179,48 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.049499232
       objectReference: {fileID: 0}
+    - target: {fileID: -539143978065796796, guid: eeba5b40ecec94072a8112c825f79598,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000089406974
+      objectReference: {fileID: 0}
+    - target: {fileID: -539143978065796796, guid: eeba5b40ecec94072a8112c825f79598,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.16918294
+      objectReference: {fileID: 0}
+    - target: {fileID: -539143978065796796, guid: eeba5b40ecec94072a8112c825f79598,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000014901163
+      objectReference: {fileID: 0}
+    - target: {fileID: -539143978065796796, guid: eeba5b40ecec94072a8112c825f79598,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9855847
+      objectReference: {fileID: 0}
+    - target: {fileID: -539143978065796796, guid: eeba5b40ecec94072a8112c825f79598,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -19.481
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eeba5b40ecec94072a8112c825f79598, type: 3}
 --- !u!4 &721442190 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: eeba5b40ecec94072a8112c825f79598,
+    type: 3}
+  m_PrefabInstance: {fileID: 721442189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &721442191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2526872151483258434, guid: eeba5b40ecec94072a8112c825f79598,
+    type: 3}
+  m_PrefabInstance: {fileID: 721442189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &721442192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1948525934080393136, guid: eeba5b40ecec94072a8112c825f79598,
     type: 3}
   m_PrefabInstance: {fileID: 721442189}
   m_PrefabAsset: {fileID: 0}
@@ -22140,8 +22177,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9db6f7b0684383478fb84a9f2e152b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretObj: {fileID: 0}
-  barrelsObj: {fileID: 0}
+  turretObj: {fileID: 721442192}
+  barrelsObj: {fileID: 721442191}
+  maxElevationAngle: -58.134
+  minElevationAngle: 7.699
 --- !u!1 &1751409196
 GameObject:
   m_ObjectHideFlags: 0
