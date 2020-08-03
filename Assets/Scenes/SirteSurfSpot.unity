@@ -10570,6 +10570,7 @@ GameObject:
   - component: {fileID: 806861641}
   - component: {fileID: 806861642}
   - component: {fileID: 806861643}
+  - component: {fileID: 806861644}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -10609,8 +10610,8 @@ MonoBehaviour:
   IconWidth: 60
   IconHeight: 60
   fontSize: 10
-  boxY: 75
-  boxX: 6
+  boxY: 410
+  boxX: 168
   btnMargin: 10
   boxWidth: 100
   boxHeight: 88
@@ -10765,6 +10766,24 @@ MonoBehaviour:
   buttonHeight: 35
   buttonY: 25
   boxLabel: Cameras
+--- !u!114 &806861644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806861637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abb39db6c99440148a3a3570d00ae92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowX: 593
+  windowY: 390
+  windowHeight: 170
+  windowWidth: 150
+  instructionsString: "Drive: Arrow Keys \n\nTurn Turret: F, G\n\nElevation: up R
+    down T\n\nShoot: spacebar"
 --- !u!1 &815820574
 GameObject:
   m_ObjectHideFlags: 0
