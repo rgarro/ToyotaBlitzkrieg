@@ -55,9 +55,9 @@ public class GUIDisplay : MonoBehaviour {
 			//Application.LoadLevel(2);
 		}
 
-		if(GUI.Button(new Rect(this.boxX+this.btnMargin,this.boxY+85,80,20), "White Hilux")) 
+		/*if(GUI.Button(new Rect(this.boxX+this.btnMargin,this.boxY+85,80,20), "White Hilux")) 
 		{
 			//Application.LoadLevel(3);
-		}
+		}*/
 	}
 }

@@ -1992,7 +1992,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &119261361
 AudioListener:
   m_ObjectHideFlags: 0
@@ -10569,6 +10569,7 @@ GameObject:
   - component: {fileID: 806861640}
   - component: {fileID: 806861641}
   - component: {fileID: 806861642}
+  - component: {fileID: 806861643}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -10612,7 +10613,7 @@ MonoBehaviour:
   boxX: 6
   btnMargin: 10
   boxWidth: 100
-  boxHeight: 114
+  boxHeight: 88
 --- !u!114 &806861640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10740,6 +10741,30 @@ MonoBehaviour:
   IconY: 20
   IconWidth: 40
   IconHeight: 40
+--- !u!114 &806861643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806861637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cdc5d1ef658b40919681653945b7151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnSkin: {fileID: 0}
+  GunCamera2d: {fileID: 2800000, guid: bb11416bbcc4d4a96b4946ae85c0a77f, type: 3}
+  FollowIcon: {fileID: 2800000, guid: fd5f3ced680044ab7ac826f2107c5a3a, type: 3}
+  gun_camera: {fileID: 821730898}
+  follow_camera: {fileID: 119261360}
+  boxWidth: 103
+  boxHeight: 60
+  boxY: 3
+  buttonWidth: 35
+  buttonHeight: 35
+  buttonY: 25
+  boxLabel: Cameras
 --- !u!1 &815820574
 GameObject:
   m_ObjectHideFlags: 0
@@ -10838,7 +10863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &821730899
 Transform:
   m_ObjectHideFlags: 0
