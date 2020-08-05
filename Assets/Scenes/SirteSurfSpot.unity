@@ -22314,15 +22314,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretObj: {fileID: 721442192}
-  barrelsObj: {fileID: 721442191}
-  maxElevationAngle: -58.134
-  minElevationAngle: 7.699
   leftTurnKey: f
   rightTurnKey: g
   rotationSteps: 0.38
   servoSoundClip: {fileID: 8300000, guid: 0421d4004acad4db19b0febce9ff0728, type: 3}
   farLeftTurretRotationAngle: -130
   farRightTurretRotationAngle: 118
+  barrelsObj: {fileID: 721442191}
+  maxElevationAngle: -58.134
+  minElevationAngle: 7.699
+  upKey: r
+  downKey: t
+  elevationSteps: 0.36
 --- !u!82 &1750372859
 AudioSource:
   m_ObjectHideFlags: 0
