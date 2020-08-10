@@ -22397,7 +22397,7 @@ MonoBehaviour:
   downKey: t
   elevationSteps: 0.36
   bullet: {fileID: 1275540663970636, guid: 43dd3e3834e74407aadd0bd14f4b3a55, type: 3}
-  bulletSpeed: 75
+  bulletSpeed: 237
   gunShotSound: {fileID: 8300000, guid: 9b33a06527a424c6097c94427a1db4e6, type: 3}
 --- !u!82 &1750372859
 AudioSource:
