@@ -9345,9 +9345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftTurnKey: f
   rightTurnKey: g
-  rotationSteps: 0.38
-  xPivot: 0
-  zPivot: 0
+  rotationSteps: 0.15
   servoSoundClip: {fileID: 8300000, guid: 0421d4004acad4db19b0febce9ff0728, type: 3}
 --- !u!1 &722407161
 GameObject:
