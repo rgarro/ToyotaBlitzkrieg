@@ -44,7 +44,7 @@ public class vehicleSounds : MonoBehaviour {
 	{
 
 		// get the distance to main camera
-		/*float camDist = (Camera.main.transform.position - transform.position).sqrMagnitude;
+		float camDist = (Camera.main.transform.position - transform.position).sqrMagnitude;
 
 		// stop sound if the object is beyond the maximum roll off distance
 		if (m_StartedSound && camDist > maxRolloffDistance*maxRolloffDistance)
@@ -56,7 +56,7 @@ public class vehicleSounds : MonoBehaviour {
 		if (!m_StartedSound && camDist < maxRolloffDistance*maxRolloffDistance)
 		{
 			StartSound();
-		}*/
+		}
 
 		//float angle = m_CarController.maxAngle * Input.GetAxis("Horizontal");
 		float torque =  Input.GetAxis("Vertical");//m_CarController.maxTorque * Input.GetAxis("Vertical");
