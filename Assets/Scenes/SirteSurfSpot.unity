@@ -9468,16 +9468,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721442191}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b16f1847802f8423bad9ce480d54125b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1275540663970636, guid: 43dd3e3834e74407aadd0bd14f4b3a55, type: 3}
-  turret: {fileID: 721442192}
-  bulletSpeed: 0
-  modelCorrectionAngle: 0
-  gunShot: {fileID: 8300000, guid: 9b33a06527a424c6097c94427a1db4e6, type: 3}
+  bulletObj: {fileID: 1275540663970636, guid: 43dd3e3834e74407aadd0bd14f4b3a55, type: 3}
+  turretObj: {fileID: 721442192}
+  bulletSpeed: 75
+  correctionAngle: 90
+  gunShotClip: {fileID: 8300000, guid: 9b33a06527a424c6097c94427a1db4e6, type: 3}
 --- !u!1 &722407161
 GameObject:
   m_ObjectHideFlags: 0
