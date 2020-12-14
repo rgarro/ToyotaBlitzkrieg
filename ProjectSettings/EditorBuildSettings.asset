@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SirteSurfSpot.unity
+    guid: f92649441ec2d4da7b60427cd46f83c9
+  m_configObjects: {}
