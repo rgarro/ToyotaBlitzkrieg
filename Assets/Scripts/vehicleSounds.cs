@@ -30,13 +30,13 @@ public class vehicleSounds : MonoBehaviour {
 	private bool m_StartedSound; // flag for knowing if we have started sounds
 	//private CarController m_CarController; // Reference to car we are controlling
 	private WheelCollider[] m_Wheels;
-	private WheelDriveXP m_CarController;
+	private WheelDrive m_CarController;
 
 
 	void Start()
 	{
 		m_Wheels = GetComponentsInChildren<WheelCollider>();
-		m_CarController = GetComponent<WheelDriveXP>();
+		m_CarController = GetComponent<WheelDrive>();
 
 	}
 

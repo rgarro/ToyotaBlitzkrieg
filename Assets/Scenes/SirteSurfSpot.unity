@@ -11264,11 +11264,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hazard: {fileID: 1804613189119564340, guid: 5727fdc7670f34f9192ed1c52709e425, type: 3}
   hazardB: {fileID: 1804613189119564340, guid: 5727fdc7670f34f9192ed1c52709e425, type: 3}
-  spawnValues: {x: 0, y: 0, z: 0}
-  hazardCount: 0
-  spawnWait: 0
-  startWait: 0
-  waveWait: 0
+  spawnValues: {x: 205.7, y: 5.6, z: 203.97}
+  hazardCount: 4
+  spawnWait: 5.74
+  startWait: 8.26
+  waveWait: 8.25
+  distanceFromSpanwnX: 100
   Score: 0
   btnSkin: {fileID: 0}
   count: 0
@@ -22401,12 +22402,12 @@ PrefabInstance:
     - target: {fileID: 598088641716009726, guid: 14a363ad982743241a12eef7bebc3e1d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 130
+      value: 189.7
       objectReference: {fileID: 0}
     - target: {fileID: 598088641716009726, guid: 14a363ad982743241a12eef7bebc3e1d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.4
+      value: 13.7
       objectReference: {fileID: 0}
     - target: {fileID: 598088641716009726, guid: 14a363ad982743241a12eef7bebc3e1d,
         type: 3}
@@ -22452,6 +22453,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 598088641716009726, guid: 14a363ad982743241a12eef7bebc3e1d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25.730085
+      objectReference: {fileID: 0}
+    - target: {fileID: 598088641716009726, guid: 14a363ad982743241a12eef7bebc3e1d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 417.44452
+      objectReference: {fileID: 0}
+    - target: {fileID: 598088641716009726, guid: 14a363ad982743241a12eef7bebc3e1d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 521.2921
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14a363ad982743241a12eef7bebc3e1d, type: 3}
@@ -22743,14 +22759,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1750372856}
   - component: {fileID: 1750372855}
-  - component: {fileID: 1750372857}
   - component: {fileID: 1750372854}
   - component: {fileID: 1750372853}
   - component: {fileID: 1750372858}
   - component: {fileID: 1750372859}
+  - component: {fileID: 1750372857}
   m_Layer: 0
   m_Name: carRoot
-  m_TagString: Untagged
+  m_TagString: theBtr
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22768,13 +22784,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxAngle: 30
-  maxTorque: 300
-  brakeTorque: 30000
+  maxTorque: 892.7
+  brakeTorque: 571
   wheelShape: {fileID: 0}
   criticalSpeed: 5
   stepsBelow: 5
   stepsAbove: 1
-  driveType: 0
+  driveType: 1
   speedNeedle: {fileID: 0}
   mphNeedle: {fileID: 0}
   NeedleIm: {fileID: 822616623}
@@ -22844,6 +22860,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b68f070120004e4e87b1313aab5e2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  engineSoundStyle: 1
+  lowAccelClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
+  lowDecelClip: {fileID: 8300000, guid: 5699dddcce16c4543b95951c4ce0e092, type: 3}
+  highAccelClip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
+  highDecelClip: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
+  pitchMultiplier: 1
+  lowPitchMin: 1
+  lowPitchMax: 6
+  highPitchMultiplier: 0.25
+  maxRolloffDistance: 500
+  dopplerLevel: 1
+  useDoppler: 1
 --- !u!114 &1750372858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27609,12 +27637,12 @@ PrefabInstance:
     - target: {fileID: 1184480282784672987, guid: 0b3e9318dbb7f854c92bf262edc9934d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 156.68
+      value: 111.4
       objectReference: {fileID: 0}
     - target: {fileID: 1184480282784672987, guid: 0b3e9318dbb7f854c92bf262edc9934d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.16
+      value: 5.6
       objectReference: {fileID: 0}
     - target: {fileID: 1184480282784672987, guid: 0b3e9318dbb7f854c92bf262edc9934d,
         type: 3}

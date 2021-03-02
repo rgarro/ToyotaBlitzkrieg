@@ -47,7 +47,7 @@ public class theContrasAI : MonoBehaviour
 
     private void setOpposingEnemy()
     {
-        this.opposingEnemy = GameObject.FindWithTag("theBTR");
+        this.opposingEnemy = GameObject.FindWithTag("theBtr");
     }
 
     void mm23CannonPointsAtBTR()
