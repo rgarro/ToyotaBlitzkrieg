@@ -22783,11 +22783,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ed7128051760b42bc56c15e5a6657d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAngle: 30
-  maxTorque: 892.7
-  brakeTorque: 571
+  maxAngle: 34.65
+  maxTorque: 976.3
+  brakeTorque: 562.2
   wheelShape: {fileID: 0}
-  criticalSpeed: 5
+  criticalSpeed: 56.3
   stepsBelow: 5
   stepsAbove: 1
   driveType: 1
