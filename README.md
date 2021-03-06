@@ -1,6 +1,9 @@
 # ToyotaBlitzkrieg
 Another Custom 4x4 for Startler Toyota ...
 
+los pilotos se murieron pero el Guero se ha salvado
+yo sigo este juego hasta que el Guero Palma vuelva a escapar asi yo me rajo ...
+
 Drive At:
 https://toyotablitzkrieg-pre1.s3.eu-west-2.amazonaws.com/index.html
 
