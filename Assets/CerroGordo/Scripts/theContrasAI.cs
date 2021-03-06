@@ -15,7 +15,7 @@ using UnityEngine;
  *                     ~~--.._______'.__.'  .'      /____________.' :  /
  *                              .'   .''.._'______.'                '-'
  *                              '---'
- *   ==== -- TheContrasAI -- ===== 
+ *   ==== -- TheContrasAI Helicopter versio -- ===== 
  *
  *@autor Rolando <rgarro@gmail.com>
  */
