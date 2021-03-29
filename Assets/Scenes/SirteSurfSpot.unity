@@ -9545,7 +9545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftTurnKey: f
   rightTurnKey: g
-  rotationSteps: 0.08
+  rotationSteps: 0.04
   servoSoundClip: {fileID: 8300000, guid: 0421d4004acad4db19b0febce9ff0728, type: 3}
 --- !u!114 &721442196
 MonoBehaviour:
@@ -9561,7 +9561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upTurnKey: r
   downTurnKey: t
-  elevationSteps: 0.15
+  elevationSteps: 0.07
   servoSoundClip: {fileID: 8300000, guid: 0421d4004acad4db19b0febce9ff0728, type: 3}
   minElev: 0
   maxElev: 0
@@ -22787,7 +22787,7 @@ MonoBehaviour:
   maxTorque: 976.3
   brakeTorque: 562.2
   wheelShape: {fileID: 0}
-  criticalSpeed: 56.3
+  criticalSpeed: 58.2
   stepsBelow: 5
   stepsAbove: 1
   driveType: 1

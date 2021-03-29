@@ -178,8 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mm23Cannon: {fileID: 4170663079458668836}
   k114Shturm: {fileID: 0}
-  ammoEffectiveDistance: 80
-  rocketEffectiveDistance: 120
+  ammoEffectiveDistance: 85
+  rocketEffectiveDistance: 115
   mm23CannonDamping: 2
   fireRate: 0.25
   muzzleFlash: {fileID: 0}
