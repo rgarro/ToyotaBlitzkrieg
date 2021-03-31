@@ -11266,10 +11266,10 @@ MonoBehaviour:
   hazardB: {fileID: 1804613189119564340, guid: 5727fdc7670f34f9192ed1c52709e425, type: 3}
   spawnValues: {x: 205.7, y: 5.6, z: 203.97}
   hazardCount: 4
-  spawnWait: 5.74
-  startWait: 8.26
-  waveWait: 8.25
-  distanceFromSpanwnX: 100
+  spawnWait: 6
+  startWait: 8.27
+  waveWait: 8.28
+  distanceFromSpanwnX: 110
   Score: 0
   btnSkin: {fileID: 0}
   count: 0
@@ -27586,7 +27586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400182, guid: f00fb9515ce471d4d96529bc4ed145bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 104.58
+      value: 120.86
       objectReference: {fileID: 0}
     - target: {fileID: 400182, guid: f00fb9515ce471d4d96529bc4ed145bd, type: 3}
       propertyPath: m_LocalRotation.x
