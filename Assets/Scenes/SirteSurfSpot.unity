@@ -22787,7 +22787,7 @@ MonoBehaviour:
   maxTorque: 976.3
   brakeTorque: 562.2
   wheelShape: {fileID: 0}
-  criticalSpeed: 58.2
+  criticalSpeed: 60.48
   stepsBelow: 5
   stepsAbove: 1
   driveType: 1
