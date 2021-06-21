@@ -11021,6 +11021,7 @@ GameObject:
   - component: {fileID: 806861644}
   - component: {fileID: 806861645}
   - component: {fileID: 806861646}
+  - component: {fileID: 806861647}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -11204,6 +11205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cdc5d1ef658b40919681653945b7151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons_x_corner: 200
   btnSkin: {fileID: 0}
   GunCamera2d: {fileID: 2800000, guid: bb11416bbcc4d4a96b4946ae85c0a77f, type: 3}
   FollowIcon: {fileID: 2800000, guid: fd5f3ced680044ab7ac826f2107c5a3a, type: 3}
@@ -11273,6 +11275,24 @@ MonoBehaviour:
   Score: 0
   btnSkin: {fileID: 0}
   count: 0
+--- !u!114 &806861647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806861637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba9defdf0d2d1e4c9eb1898e883ed44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DownloadIcon: {fileID: 2800000, guid: 8a4c8c7c5b4f2c047a21e767594dde66, type: 3}
+  IconX: 10
+  IconY: 10
+  IconWidth: 48
+  IconHeight: 48
+  downloadUrl: https://matterporttest-f4387.firebaseapp.com/TheGospelOfLuke.zip
 --- !u!1 &815820574
 GameObject:
   m_ObjectHideFlags: 0
