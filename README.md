@@ -12,4 +12,4 @@ https://soundcloud.com/dorje-trolo/falklandsarebritish
 Buy Me a Beer, Starbucks Expresso or send a cheese burguer ... [Paypal](https://www.paypal.me/gospelOfLuke/25).
 
 
-[![ la peni...](https://raw.githubusercontent.com/rgarro/ToyotaBlitzkrieg/master/hilux.png)]
+[![ lapeni...](https://raw.githubusercontent.com/rgarro/ToyotaBlitzkrieg/master/hilux.png)]
