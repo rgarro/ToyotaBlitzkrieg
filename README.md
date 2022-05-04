@@ -1,6 +1,6 @@
 # ToyotaBlitzkrieg
 Another Custom 4x4 for Startler Toyota ...
-ADLIB PickUp Stick 7'6 ...
+
 Drive At:
 https://toyotablitzkrieg-pre1.s3.eu-west-2.amazonaws.com/index.html
 

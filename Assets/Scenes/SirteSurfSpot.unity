@@ -9094,6 +9094,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zu23C
       objectReference: {fileID: 0}
+    - target: {fileID: 4224801822505238522, guid: eeba5b40ecec94072a8112c825f79598,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274873701517981592, guid: eeba5b40ecec94072a8112c825f79598,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -9169880465514080527, guid: eeba5b40ecec94072a8112c825f79598,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -9333,16 +9343,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 135.824
-      objectReference: {fileID: 0}
-    - target: {fileID: 4224801822505238522, guid: eeba5b40ecec94072a8112c825f79598,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8274873701517981592, guid: eeba5b40ecec94072a8112c825f79598,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8567125788655004613, guid: eeba5b40ecec94072a8112c825f79598,
         type: 3}
@@ -22865,15 +22865,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxAngle: 35
-  maxTorque: 310
+  maxTorque: 8000
   brakeTorque: 29000
   wheelShape: {fileID: 0}
   criticalSpeed: 60.48
   stepsBelow: 5
   stepsAbove: 1
   driveType: 0
-  speedNeedle: {fileID: 0}
-  mphNeedle: {fileID: 0}
   NeedleIm: {fileID: 822616623}
   NeedleMph: {fileID: 822616622}
   speedKph: 0

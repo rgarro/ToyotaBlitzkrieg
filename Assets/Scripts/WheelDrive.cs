@@ -32,8 +32,8 @@ public class WheelDrive : MonoBehaviour
 	[Tooltip("The vehicle's drive type: rear-wheels drive, front-wheels drive or all-wheels drive.")]
 	public DriveType driveType;
 
-	public SimpleGaugeNeedle speedNeedle;
-	public SimpleGaugeNeedle mphNeedle;
+	private SimpleGaugeNeedle speedNeedle;
+	private SimpleGaugeNeedle mphNeedle;
 	public Image NeedleIm;
 	public Image NeedleMph;
     private WheelCollider[] m_Wheels;
