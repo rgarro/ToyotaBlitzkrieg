@@ -11334,7 +11334,7 @@ MonoBehaviour:
   hazard: {fileID: 1184480282784444667, guid: 0b3e9318dbb7f854c92bf262edc9934d, type: 3}
   hazardB: {fileID: 1804613189119564340, guid: 5727fdc7670f34f9192ed1c52709e425, type: 3}
   spawnValues: {x: 205.7, y: 5.6, z: 203.97}
-  hazardCount: 4
+  hazardCount: 6
   spawnWait: 6
   startWait: 8.27
   waveWait: 8.28
